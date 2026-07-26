@@ -25,10 +25,10 @@ const Nav:NavB[] = [
 ]
 function Navbar() {
   return (
-    <div className='bg-cyan-300 py-2.5 px-3 rounded-full fixed mt-4 left-0 right-0 backdrop-blur-3xl'>
+    <div className='bg-white/65 py-2.5 px-3 rounded-full fixed mt-4 left-0 right-0 backdrop-blur-2xl'>
       <div className='flex justify-between items-center px-4'>
-      <h1>NeXt-Js</h1>
-      <div className='flex justify-center items-center gap-1.5'>
+      <h1 className='font-bold'>NeXt-Js</h1>
+      <div className='flex justify-center items-center gap-1.5 font-semibold'>
 {Nav.map((link)=>(
  <Link key={link.id} href={link.link}>
   {link.name}
