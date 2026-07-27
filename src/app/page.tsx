@@ -5,7 +5,7 @@ import React from 'react'
   return (
 
     <div className='bg-cyan-100 h-screen w-full flex justify-center items-center'>
-      <h1 className='font-bold '>Hi There welcome To My Page</h1>
+      <h1 className='font-bold '>Hi There welcome To My Page👋</h1>
     </div>
   )
 }

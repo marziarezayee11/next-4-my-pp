@@ -2,7 +2,10 @@ import React from 'react'
 
 function loading() {
   return (
-    <div className='bg-cyan-100 h-screen w-full flex justify-center items-center'>Please Wite a moment</div>
+    <div className='bg-cyan-100 h-screen w-full flex justify-center items-center'>
+      <h1 className=' text-2xl font-bold'>Please Wait a moment</h1>
+
+      </div>
   )
 }
 
