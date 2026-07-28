@@ -1,5 +1,4 @@
 import Link from 'next/link'
-import React from 'react'
 
 const Nav:NavB[] = [
     {
@@ -21,7 +20,11 @@ const Nav:NavB[] = [
         id:4,
         name:"Product",
         link:"/Product",
-    }
+    },
+    {id:5,
+      name:"Dashboard",
+      link:"/dashboard",
+    },
 ]
 function Navbar() {
   return (
