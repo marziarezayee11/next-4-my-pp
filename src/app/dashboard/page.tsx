@@ -1,9 +1,10 @@
 "use client"
-
+import { useRouter } from 'next/navigation'
 import Link from "next/link";
 import { useState } from "react"
 
 function Sidebar() {
+  const router = useRouter()
     const [Open,SetOpen] = useState(false);
   return (
     <div className=" flex justify-center items-center bg-cyan-100 h-screen w-full">
@@ -22,6 +23,7 @@ function Sidebar() {
 
         )}
         </div>
+         <button  className="font-bold"onClick={()=>router.back()}>↩</button>
     </div>
   )
 }
