@@ -33,6 +33,8 @@ export interface product{
     images: [
       "/images/red1.jpg",
       "/images/red2.jpg",
+      "/images/red2.jpg",
+
     ],
     sizes: ["M", "L", "XL"],
     colors: ["Red", "Black"],
