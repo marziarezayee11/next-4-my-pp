@@ -1,8 +1,7 @@
 "use client"
 import { Metadata } from 'next'
 import { useRouter } from 'next/navigation'
-import React from 'react'
- export const metadeta:Metadata = {
+ export const metadeta= {
   title:"Contact page"
   
 }

@@ -23,7 +23,7 @@ function Sidebar() {
 
         )}
         </div>
-         <button  className="font-bold"onClick={()=>router.back()}>↩</button>
+      
     </div>
   )
 }
