@@ -40,7 +40,7 @@ function Navbar() {
          <button  className='font-black' onClick={()=>router.replace('/Product')}>⟫</button>
       <h1 className='font-bold'>NeXt-Js</h1>
       </div>
-      <div className='flex justify-center items-center gap-1.5 font-semibold'>
+      <div className='flex justify-center items-center gap-1.5 font-semibold mr-5'>
 {Nav.map((link)=>(
  <Link key={link.id} href={link.link}>
   {link.name}
