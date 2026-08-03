@@ -1,6 +1,6 @@
 import Link from "next/link";
 import Image from "next/image";
-import products from "../../../public/db.ts/product";
+import products from "../../../../public/db.ts/product";
 
 
 export const metadata ={
