@@ -12,7 +12,7 @@ function page() {
         src="/images/shirt1.jpg"
         alt='flower'
         height={150}
-        width={150}/>
+        width={180}/>
         </div>
   <div
         className='flex justify-center items-center  '>
@@ -21,7 +21,7 @@ function page() {
         src="/images/red1.jpg"
         alt='flower'
         height={150}
-        width={150}/>
+        width={170}/>
         </div>
           <div
         className='flex justify-center items-center  '>
@@ -30,7 +30,7 @@ function page() {
         src="/images/black7.jpg"
         alt='flower'
         height={150}
-        width={150}/>
+        width={160}/>
         </div>
         </div>
 

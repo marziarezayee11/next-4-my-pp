@@ -7,8 +7,8 @@ function page() {
         <div className='flex justify-center items-center gap-3'>
           <div>
             <video
-            className='h-55'
-            controls width={250}>
+            className='h-60'
+            controls width={260}>
               <source src="/videos/de1.mp4"
               type='video/mp4'/>
               error
