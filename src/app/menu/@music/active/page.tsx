@@ -1,8 +1,8 @@
-import Link from 'next/link'
+import React from 'react'
 
 function page() {
   return (
-    <div className='w-full border-[#eee] h-full shadow-xl'>
+        <div className='w-full border-[#eee] h-full shadow-xl'>
         <h1 className='text-center font-bold p-3'>music</h1>
         <div className='flex justify-center items-center gap-4 flex-wrap'>
           
@@ -22,7 +22,7 @@ function page() {
           </audio>
           </div>
           </div>
-          <Link className='mx-auto p-8 font-bold' href="/menu/active">more</Link>
+        
 
          
     </div>
