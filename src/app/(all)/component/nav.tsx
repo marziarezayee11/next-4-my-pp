@@ -27,6 +27,10 @@ const Nav:NavB[] = [
       name:"Dashboard",
       link:"/dashboard",
     },
+      {id:6,
+      name:"Menu",
+      link:"/menu",
+    },
 ]
 function Navbar() {
   const router = useRouter()
