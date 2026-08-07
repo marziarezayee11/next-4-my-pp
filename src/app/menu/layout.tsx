@@ -14,14 +14,14 @@ function Layout({
   photos: React.ReactNode;
   login: React.ReactNode;
 }) {
-  const isloggedin = false;
+  const isloggedin = true;
 
   if (isloggedin) {
     return (
       <html>
         <body>
           <div className="min-h-screen w-full bg-white">
-            <h1 className="py-2 text-center text-2xl font-bold">منو</h1>
+            <h1 className="py-2 text-center text-2xl font-bold">Menu</h1>
             <div className="h-screen w-full grid grid-cols-2 gap-4 mx-auto p-4">
               <div>{children}</div>
               <div>{music}</div>
