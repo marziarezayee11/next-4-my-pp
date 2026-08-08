@@ -24,7 +24,7 @@ function page() {
       width={250}/>
       </div>
         
-           <div className='mt-10 mb-7'>
+           <div className='mt-10'>
          <h1 className=' text-center font-bold text-2xl'>Videos</h1>
         <div className='flex justify-center items-center gap-3'>
           <div>
